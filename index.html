@@ -1,0 +1,129 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="css/atual.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,300,200,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loren Ipsum Pub</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="content">
+
+        <div id="nav-icon1" class="open" onclick="toogle('primary')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <header>
+            <h1><a href="#">Loren Ipsum Pub</a></h1>        
+            <nav id="primary">
+                 <ul>
+                    <li><a href="">O Pub</a></li>
+                     <li><a href="">Progrmação</a></li>
+                     <li><a href="">Galeria</a></li>
+                </ul>
+                 <ul class="lista2">
+                    <li><a href="">Contato</a></li>
+                     <li><a href="">Facebook</a></li>
+                     <li><a href="">Twitter</a></li>            
+                </ul>
+             </nav>
+             
+             <div class="agenda">
+                 
+                <ul>
+                     <li>
+                        <a href="#">
+                        <span class="data">22/08 - QUA</span>
+                        <span class="atracao">+ carne nua</span>
+                        <span class="atracao">+ Led  Zeppelin Cover</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#">
+                        <span class="data">22/08 - QUA</span>
+                        <span class="atracao">+ carne nua</span>
+                        <span class="atracao">+ Led  Zeppelin Cover</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#">
+                        <span class="data">22/08 - QUA</span>
+                        <span class="atracao">+ carne nua</span>
+                        <span class="atracao">+ Led  Zeppelin Cover</span>
+                        </a>
+                    </li>                                
+    
+                 </ul>
+                              
+             </div>
+             
+             <div class="agenda black">
+                <ul>
+                     <li>
+                        <a href="#">
+                        <span class="data">22/08 - QUA</span>
+                        <span class="atracao">+ carne nua</span>
+                        <span class="atracao">+ Led  Zeppelin Cover</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#">
+                        <span class="data">22/08 - QUA</span>
+                        <span class="atracao">+ carne nua</span>
+                        <span class="atracao">+ Led  Zeppelin Cover</span>
+                        </a>
+                    </li>            
+                </ul> 
+             </div>
+            <div class="both"> </div>
+        </header>
+        
+        <section class="conteudo">
+        
+            <aside>
+                <address>Av. Loren Upsum, 45 <br />
+                (Norte Sul) - Loren Isum <br />
+                Loren Ipsum - MG  <br />
+                (31) 0000-0000 </address>
+                
+              <div class="redes"> 
+                    <a href="#" class="facebook" title="Visite nossa página no Face">Facebook</a>
+                    <a href="#" class="twitter" title="Siga-nos no twitter">Twitter</a>
+              </div>
+                
+            </aside>
+            
+        </section> <!-- conteudo -->
+    </div>
+    
+    <div class="random-images" id="slideshow">
+       	<img src="images/imagem1.jpg" alt="Amigos" class="active amigos">
+        <img src="images/imagem2.jpg" alt="">
+    </div>
+</div> <!-- container -->
+
+<script language = "javascript" type = "text/javascript" >
+
+    function toogle(idDiv) {
+        var div = document.getElementById(idDiv);
+        if (div.style.display == 'none') {
+            div.style.display = 'block';
+        } else {
+            div.style.display = 'none';
+        }
+
+        document.getElementById("nav-icon1").classList.toggle("open");
+    }
+
+    </script>
+
+
+</body>
+</html>
